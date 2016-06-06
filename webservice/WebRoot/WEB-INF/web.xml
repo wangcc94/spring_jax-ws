@@ -25,7 +25,6 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>JAXWSServlet</servlet-name>
-		<url-pattern>/service/photo</url-pattern>
-		<url-pattern>/service/population</url-pattern>
+		<url-pattern>/service/*</url-pattern>
 	</servlet-mapping>
 </web-app>
